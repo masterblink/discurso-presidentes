@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: discurso-presidentes
+  host: discurso-presidentes
+  disk_quota: 1024M
+  services:
+  - discurso-presidentes-personality_insights
